@@ -1,2 +1,2 @@
-# tech-deegre-project1
- my first techdeegre project
+# Techdeegre project 1
+
