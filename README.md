@@ -1,2 +1,0 @@
-# Techdeegre project 1
-
