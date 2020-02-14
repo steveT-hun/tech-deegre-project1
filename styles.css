@@ -79,8 +79,16 @@ header {
   background-position-y: -1200px;
   overflow: hidden;
   padding-top: 60px;
-
 }
+/* Different background picture for the hobbies page */
+.hobbiesheader {
+  text-align: center;
+  background: url('images/hobbies.jpg') no-repeat bottom center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
 
 header .profile-image {
   margin-top: 50px;
@@ -98,15 +106,26 @@ header .profile-image {
   border: 3px solid #ff9904;
   transition: all .5s;
   transform: rotate(0.5turn);
-
 }
+.imaghobby {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 15%;
+  border: 3px solid #ff9904;
+  transition: all .5s;
+}
+
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
   transform: rotate(0.5turn);
 }
 .profile-imagex:hover {
-  transform: scale(1.2) rotate(0deg);
-  
+  transform: scale(1.2) rotate(0deg); 
+}
+
+.imaghobby:hover {
+  transform: scale(1.2) rotate(360deg);
 }
 
 .tag {
@@ -133,6 +152,12 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+
+.hobbies {
+ margin-left: 25%;
+ margin-right: 25%;
+}
+
 .about {
   display: flex;
 
