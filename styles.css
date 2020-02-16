@@ -63,7 +63,8 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/cover.jpg') no-repeat bottom center ;
+  background: linear-gradient(to top, #f7f5f0, transparent 90%),
+              url('images/cover.jpg') no-repeat bottom center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -84,7 +85,8 @@ header {
 /* Different background picture for the hobbies page */
 .hobbiesheader {
   text-align: center;
-  background: url('images/hobbies.jpg') no-repeat bottom center ;
+  background: linear-gradient(to top, #f7f5f0, transparent 90%),
+              url('images/hobbies.jpg') no-repeat bottom center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
