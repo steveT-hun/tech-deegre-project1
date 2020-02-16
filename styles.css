@@ -72,11 +72,12 @@ header {
   line-height: 1.5;
 }
 /* Different background picture for the experience page */
+
 .expreience {
   text-align: center;
-  background: url('images/xpcover.jpg') no-repeat center;
+  background: linear-gradient(to top, #f7f5f0, transparent 90%),
+            url('images/xpcover.jpg') no-repeat center;
   background-size: cover;
-  background-position-y: -1200px;
   overflow: hidden;
   padding-top: 60px;
 }
