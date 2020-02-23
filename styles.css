@@ -215,9 +215,13 @@ ul.xpskills{
   background: #24211eb2;
   color: white;
   padding: 5px 10px;
-  margin: 5px 120px;
-}
+  margin: 0 auto;
+  margin-top: 3px;
 
+}
+.xpskills {
+  display: inline-block;
+}
 
 .skills li:nth-child(odd),
 .xpskills li:nth-child(odd){
